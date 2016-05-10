@@ -1,0 +1,13 @@
+* {margin:0; padding:0}
+
+body { font-family: Tahoma,Helvetica,Verdana,Arial,sans-serif;font-size:150%;margin:5px;padding:0;color:#000000;}
+
+a {text-decoration:underline; color:#0000ff;}
+
+#Header, #ToolsHeader, #ToolsContent, #subscribe, #search , #footer, #utilitybar, #breadcrumb, #leftnav, #rightnav, #Banner, #RightColumn, #Subscribe, #Subscribelabel, #SubscribeForm, #Search, #SearchForm, #Searchlabel, #Nav, #agencyname, .crumb-links, .hidePrint, .navlinks, #FooterMenu, #FooterMenuContainer, #FooterContactContainer, #FooterContact, #utilitybarright, #Tools, #utilitybarleft, #fbcontent, #backtotop {display:none; width:0px; margin:0px; padding:0px; height:0px}
+
+#content {float:none; display:inline; text-align:left; margin-left:0px; padding:0px; background-color:#FFF; margin-right:10px; margin-top:7px; font-size:12pt;}
+Body {font-family:sanserif; margin:0px; padding:0px; background-color:#FFFFFF; width:100%; text-align:left; font-size:12pt}
+#Main, {width:100%; background-color:#FFFFFF; margin:0px; background-image:none; text-align:left; font-size:12pt;}
+#SEGMENTS { padding:3px; font-size:12px; margin-left:10px; margin-bottom:5px; font-size:12pt; }
+.headermed { font-size: 18px; margin-left:0px; }

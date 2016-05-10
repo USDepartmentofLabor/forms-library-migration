@@ -1,0 +1,32 @@
+/* This style sheet formats agency/secondary pages and the left/right hand navs for them. */
+
+/**{ margin:0; padding:0 } */
+
+#agencyname{ margin-left:10px; text-align:left; font-size:10pt; color:#000; padding-left:5px;  }
+#agencyname a{ font-size:10pt; color:#000; font-weight:bold; padding-left:5px }
+
+#content{ float:left; display:inline; text-align:left; margin-left:10px; padding:7px; background-color:#FFF; margin-right:10px; margin-top:7px }
+
+#FooterContact{ width:984px }
+
+#imagestrip{ background-color:#FFF; font-size:8pt; margin-left:592px; height:824px }
+#imagestrip a{ text-decoration:none; color:#303030 }
+#imagestrip a:hover{ text-decoration:underline }
+
+#leftnav{ float:left; overflow:hidden; background-color:#F7F7F7; margin-left:-974px; margin-top:7px; width:170px }
+
+#leftnav ul{ margin-left:15px; padding-left:10px }
+
+#RightColumn{ width:510px; margin-right:5px; float:right }
+
+#rightnav{ float:right; overflow:hidden; background-color:#F7F7F7; margin-top:0px; width:170px }
+
+#rightnav ul{ margin-left:15px; padding-left:10px }
+
+#Search{ float:right; height:40px; width:266px }
+
+#UtilityBar{ background-image:url(/images/utilbar.gif); background-repeat:repeat-x; margin-left:10px; margin-right:10px; height:28px; width:964px; font-size:8pt; color:#636363 }
+#UtilityBar a{ text-decoration:none; color:#636363 }
+#UtilityBar a:hover{ text-decoration:underline;	color:#000 }
+
+#UtilityBar img{ vertical-align:bottom }

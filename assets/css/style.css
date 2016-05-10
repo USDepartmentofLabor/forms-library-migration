@@ -1,0 +1,286 @@
+/* This style sheet is for every page on www.dol.gov other than /index.htm. */
+/* This style sheet only needs the following sections: Global, Headers, Text Styles, Page Structure, and Forms */
+
+
+/* Global */
+a.skipster{
+	height:1px;
+	left: -9999em;
+	overflow:hidden;
+	position:absolute;
+	text-align:left;
+	top: -9999em;
+	width: 1px;
+}
+
+a.skipster:active,
+a.skipster:focus,
+
+a.skipster:hover{
+	background-color: #fff;
+	color: #000;
+	font-size: 1em;
+	height:auto;
+	left:0;
+	overflow:auto;
+	padding: .2em;
+	top:0;
+	width:99%;
+	z-index:100%;
+}
+
+*{ margin:0 }
+
+a[href] { color:#003399; text-decoration:underline }
+a[href]:hover { color:#000; text-decoration:underline; } 
+
+a[name] { text-decoration:none; }
+a[name]:visited { text-decoration:none; } 
+a[name]:hover { text-decoration:none; } 
+
+body{ font-family:tahoma; margin:0px; padding:0px; background-color:#B4B4B4 }
+
+img{ border:none }
+
+li{ font-size:100%; color:#000; margin-bottom:4px }
+li a{ color:#003399; text-decoration:underline }
+li a:hover{ color:#990000; text-decoration:underline }
+
+ol{ color:#000; font-size:110%; margin-left:20px; padding-left:16px }
+ol a{ color:#003399; text-decoration:underline }
+ol a:hover{ color:#990000; text-decoration:underline; }
+ol a:visited{ color:#800080; text-decoration:underline; }
+
+p{ padding:3px; font-size:80%; margin-left:10px; margin-bottom:5px }
+p a{ color:#003399; text-decoration:underline }
+p a:hover{ color:#990000; text-decoration:underline; }
+p a:visited{ color:#800080; text-decoration:underline; }
+
+td.tabletitle{ background-color:#FFF; }
+ 
+ul{ list-style-position:outside; /* list-style:square; */ list-style-image:url(/images/bullet-gray.gif); color:#000; margin-left:20px; font-size:12px; margin-bottom:7px; padding-left:10px }
+ul a{ color:#003399; text-decoration:underline }
+ul a:hover{ color:#990000; text-decoration:underline }
+ul a:visited{ color:#800080; text-decoration:underline; }
+
+/* End Global */
+
+
+/* Headers */
+h1{ color:#039; font-weight:lighter; font-size:20px; margin-left:10px; padding:3px; margin-bottom:5px }
+
+h2 header-topic{ color:#900; font-weight:bold; font-size:18px; margin-left:10px; padding:3px; margin-bottom:5px }
+
+h2{ color:#000; font-weight:bold; font-size:18px; margin-left:10px; padding:3px; margin-bottom:5px }
+
+h3{ color:#000; font-weight:bold; font-size:15px; margin-left:10px; padding:3px; margin-bottom:7px;  }
+
+h4{ color:#000; font-weight:bold; font-size:12px; margin-left:10px; padding:3px; margin-bottom:7px;  }
+
+.headermed{ color:#003399; font-size:20px; font-weight:lighter }
+
+.headermedred{ color:#990000; font-size:18px; font-weight:bold }
+
+.headersm{ color:#000; font-weight:bold; font-size:18px }
+
+.header-topic{ color:#900; font-weight:bold; font-size:15px }
+/* End Headers */
+
+
+/* Text Styles */
+.backtotop{ color:#039; font-weight:bold; font-size:8pt; margin-bottom:10px; margin-top:15px }
+.backtotop a{ color:#039; text-decoration:underline }
+.backtotop a:hover{ color:#039; text-decoration:underline }
+
+.captiontext{ color:#000; font-weight:bold; font-size:11px }
+
+.crumb-links{ text-align:left; margin-left:12px; font-size:80%; color:#000; }
+.crumb-links a{ text-decoration:underline; color:#666; font-size:100%; }
+.crumb-links a:hover{ text-decoration:underline; color:#000; }
+
+.box-title{ color:#f3f3f3; font-size:80%; font-weight:bold }
+.box-title a:{ color:#f3f3f3; font-size:80%; font-weight:bold }
+
+.boxtitle2{ background-image:url(//www.dol.gov/images/HorizontalGrad.jpg) }
+
+.highlights-hidden { visibility: hidden; display: none; }
+
+.menu-header{ color:#900; font-size:12px; font-weight:bold; margin-bottom:5px; margin-top:10px; border-top-color:#E5E5E5; border-top-style:solid; border-top-width:1px; padding-top:inherit }
+.menu-header a{ color:#900; text-decoration:none }
+.menu-header a:hover{ color:#900; text-decoration:underline }
+
+#leftnav H2 { color:#900; font-size:12px; font-weight:bold; margin-bottom:5px; margin-top:10px; margin-left:-3px; border-top-color:#E5E5E5; border-top-style:solid; border-top-width:1px; padding-top:inherit }
+#leftnav H2 a{ color:#900; text-decoration:none }
+#leftnav H2 a:hover{ color:#900; text-decoration:underline }
+
+.more{ font-size:8pt; font-weight:bold; color:#666 }
+.more a{ color:#666 }
+.more a:hover{ color:#000 }
+
+.navlinks{ text-align:left; padding-top:3px; font-weight:bold; font-size:12px; color:#FFF }
+.navlinks a{ text-decoration:none }
+.navlinks a:hover{ text-decoration:underline } 
+
+.overline { border-bottom: 3.5px groove black; }
+
+.panel{ margin-top:10px; color:#636363; font-size:8pt; padding:5px; overflow:auto; clear:left }
+
+.sec-menu-header{ margin-left:7px; font-size:8pt; color:#900; font-weight:bold }
+.sec-menu-header a{ color:#900; text-decoration:none }
+.sec-menu-header a:hover{ color:#900; text-decoration:underline }
+
+span{ font-size:8pt; color:#636363 }
+
+.stats{padding-bottom:3px; padding-top:3px;  padding-left:5px; font-size:9pt; text-align:left;}
+
+.title { text-decoration:none; color:#636363 }
+.title a{ text-decoration:none; font-weight:bold; color:#636363 }
+.title a:hover{ text-decoration:underline; color:#000 }
+
+.tools{ text-align:left; font-size:8pt; color:#666  }
+.tools a{ text-decoration:none; color:#666 }
+.tools a:hover{ text-decoration:underline; color:#000 }
+
+ul.menu-item{ color:#666; font-size:11px; margin-bottom:0px; margin-left:-15px; list-style:square #003399 }
+ul.menu-item a{ color:#666; text-decoration:none }
+ul.menu-item a:hover{ color:#000; text-decoration:underline }
+ul.menu-item a:visited{ color:#666; text-decoration:none }
+
+.underline { border-bottom: 1px groove black; }
+
+.utilitybarleft{ text-align:left; font-size:9px; color:#000; float:left; padding-top:5px; font-weight:bold }
+.utilitybarleft a{ text-decoration:underline }
+.utilitybarleft a:hover{ text-decoration:underline }
+
+.utilitybarright{ text-align:right; font-size:11px; color:#636363; float:right; padding-top:5px }
+.utilitybarright a{ color:#636363; text-decoration:none }
+.utilitybarright a:hover { color:#000; text-decoration:underline }
+/* End Text Styles */
+
+
+/* Page Structure */
+
+/* #Banner{ 
+	margin-left:0px; 
+	margin-top:0px; 
+	width:400px; 
+	height:79px; 
+	margin-bottom:0px; 
+	float:left; 
+	display:inline; 
+	background-image:url(//www.dol.gov/images/Banner.gif); background-repeat:no-repeat; overflow:hidden; cursor:pointer }
+*/
+
+
+#Header{
+background: #900 url(//www.dol.gov/images/RedVerticalGrad.jpg) repeat-x 0 0;
+height:79px; 
+width:984px; 
+text-align:center; 
+}
+
+
+#Banner{ 
+	margin:0;
+	width:400px;
+	height:79px; 
+	float:left; 
+	display:inline; 
+	background-image:url("//www.dol.gov/images/Banner.gif"); 
+	background-repeat:no-repeat; 
+	overflow:hidden; 
+	cursor:pointer;
+	background-position: 0 0;
+}
+
+#Banner p{
+	text-indent: -9999em;
+	width:400px;
+	height:79px;
+}
+
+#Banner p a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#Footer{ margin-left:auto; margin-right:auto; width:984px;clear:both; }
+
+#FooterContact{ background-color:#B4B4B4; margin-left:0px; margin-top:0px; width:984px; height:36px; margin-bottom:0px; float:left; display:inline; overflow:hidden; font-size:10px; text-align:center; vertical-align:middle }
+
+#FooterContactContainer{ margin-top:5px }
+#FooterContactContainer a{ text-decoration:underline; color:#000 }
+#FooterContactContainer a:hover{ text-decoration:underline; color:#000; font-weight:bold }
+
+#FooterMenu{ background-color:#900; margin-left:0px; margin-top:0px; width:984px; height:29px; margin-bottom:0px; float:left; display:inline; overflow:hidden; font-weight:bold; font-size:10px; color:#FFF; text-align:center; vertical-align:middle }
+
+#FooterMenuContainer{ margin-top:9px }
+#FooterMenuContainer a{ color:#FFF; text-decoration:none }
+#FooterMenuContainer a:hover{ color:#FFF; text-decoration:underline }
+
+
+#LeftColumn{ float:left; width:330px; margin-top:0px; margin-left:0px; padding-right:5px; border:0px solid #f0f0f0 }
+
+#Main{ width:984px; background-color:#FFF; margin:0 auto; /*padding-bottom:15px;*/ background-image:url(//www.dol.gov/images/VerticalGrad.jpg); background-repeat:repeat-x }
+
+#Nav{ margin-left:0px; margin-top:0px; width:464px; height:22px; margin-bottom:0px; float:left; display:inline; overflow:hidden }
+
+.nobullet{ list-style:none; list-style-image:none }
+
+.nonselectedTab{ background:none; background-color: }
+
+#RightColumn{ float:right; font-size:10px; width:490px; margin-top:10px; margin-left:2px }
+#RightColumn a{ color:#fff }
+
+.selectedTab{ background-color:#fff; background-position:left; background-repeat:no-repeat }
+
+#ToolsContent{ background-color:#FFF; margin-left:8px; margin-top:0px; width:276px; margin-bottom:0px; float:left; display:inline; overflow:hidden; letter-spacing:.1px }
+
+#ToolsHeader{ text-align:left; padding:4px; margin-left:8px; margin-top:8px; width:160px; margin-bottom:0px; float:left; display:inline; vertical-align:bottom }
+
+#tooltip{ position:absolute; width:150px; border:1px solid black; background-color:lightyellow; visibility:hidden; z-index:100; /*Remove below line to remove shadow. Below line should always appear last within this CSS*/filter:progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135) }
+/* End Page Structure */
+
+
+/* Forms */
+
+input.subscribeButton{ margin-left:2px; margin-top:1px }
+
+input.subscribeText{ width:152px; font-size:11px; float:left; }
+
+input.searchButton{ margin-left:2px; margin-top:0px; margin-top:5px;}
+
+input.searchText{ width:167px; font-size:11px; float:left; margin-top:4px; }
+
+#Searchlabel a{ font-size:8pt; color:#f6f6f6; }
+
+#Subscribe{ font-size:8pt; text-align:left; margin-left:0px; width:230px; height:40px; float:left; margin-bottom:0px; display:inline; color:#FFF; /*border:1px solid #000; */}
+
+#SubscribeForm{ padding-top:1px }
+
+#Subscribelabel { 
+	font-size:8pt; 
+	color:#f6f6f6;
+	/*border:1px solid #000;*/
+	padding-bottom:3px; 
+}
+
+#Subscribelabel a{ 
+	font-size:8pt; 
+	color:#f6f6f6;
+	padding-top:1px;
+
+}
+
+#Search{
+	font-size:8pt;
+	text-align:left;
+	margin-left:0px;
+	float:left;
+	height:40px;
+	display:inline;
+	color:#B4B4B4;
+	/* border:1px solid #96F; */
+}
+/* End Forms */
